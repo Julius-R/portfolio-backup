@@ -6,6 +6,7 @@ import {
   NavLink
 } from 'react-router-dom';
 
+
 function Nav(props) {
   return (
     <nav className="navBar">

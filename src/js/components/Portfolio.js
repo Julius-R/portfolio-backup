@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Menu from './Menu.js';
 import Nav from './Nav.js';
 import Footer from './Footer.js';
 
@@ -13,16 +14,19 @@ function Portfolio(props) {
 
   return (
     <div>
-      <Nav />
-      <section className="portfolio">
-        <div className="container">
-          <h1 className="text-large">Portfolio</h1>
-          <div className='row'>
-            {cards}
+      <Menu />
+      <div className="content-wrapper">
+        <Nav />
+        <section className="portfolio">
+          <div className="container">
+            <h1 className="text-large">Portfolio</h1>
+            <div className='row'>
+              {cards}
+            </div>
           </div>
-        </div>
-      </section>
-      <Footer />
+        </section>
+        <Footer />
+      </div>
     </div>
   )
 }
