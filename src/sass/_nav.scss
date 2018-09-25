@@ -1,0 +1,28 @@
+.navBar {
+  width: 100%;
+  padding-top: 50px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+      font-size: 20px;
+
+      li {
+        display: inline-block;
+        margin: 0 20px;
+        padding-bottom: 5px;
+
+        &:hover {
+          border-bottom: 2px solid $purple;
+        }
+      }
+
+      .active {
+        color: $purple;
+      }
+    }
+  }
+}

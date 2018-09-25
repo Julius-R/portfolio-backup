@@ -1,0 +1,56 @@
+$regular: 'Montserrat', sans-serif;
+
+//Colors
+$black: #222831;
+$darkGray: #393E46;
+$purple: #7971EA;
+$gray: #EEEEEE;
+$white: #FFFFFF;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.purpleText {
+  color: $purple;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: $regular;
+  background: $gray;
+  $black: #222831;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
