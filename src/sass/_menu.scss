@@ -1,0 +1,27 @@
+.mobileMenu {
+  transition: 3s ease;
+  display: block;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  background: $purple;
+  top: 0;
+  left: -1000px;
+  z-index: 100;
+  padding: 20px;
+  text-align: center;
+
+  #close {
+    color: $white;
+    position: absolute;
+    right: 30px;
+  }
+
+  li {
+    padding: 2em;
+    list-style: none;
+    color: $white;
+    font-size: 2em;
+    border-bottom: 2px solid $white;
+  }
+}
