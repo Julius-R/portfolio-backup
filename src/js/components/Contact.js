@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Sidebar from './Sidebar';
 import Nav from './Nav.js';
 import Footer from './Footer.js';
 
-class Contact extends React.Component {
-  render() {
+function Contact() {
     return (
       <div className="content-wrapper">
+        <Sidebar />
         <Nav />
         <section className="contact">
           <div className="container">
@@ -33,7 +34,6 @@ class Contact extends React.Component {
         <Footer />
       </div>
     )
-  }
 }
 
 module.exports = Contact;

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pokedex App</title>
+  <link rel="stylesheet" href="dist/css/main.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+  <nav class="search">
+    <div class="log">
+        <div class="search-btn">Pokemon Search</div>
+    </div>
+    <div class="search-opt">
+      <div class="search-input">
+        <input type="text" id="pkmn_name" placeholder="ex. Bulbasaur">
+        <button class="search_pkmn">Go!</button>
+      </div>
+      <div class="search-dropdown">
+        <select name="Pokemon" id="pkmn_num">
+          <option value="null">Search By Number</option>
+        </select>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+      <header class="hero">
+          <div class="info">
+            <div id="pkdx_num"></div>
+            <div id="pkdx_name"></div>
+          </div>
+        </header>
+
+        <div class="info-area">
+          <div class="pkdx_general">
+            <div class="stats">
+              <div id="pkdx_height"></div>
+              <div id="pkdx_weight"></div>
+              <div id="pkdx_type">Type: </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="image">
+            <img id="pkmn_img" src="" alt="Current pokemon">
+          </div>
+  </div>
+
+
+  <script src="dist/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa:300,400|Muli:300,400,700";
+@import "https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+body {
+  font-family: "Muli", sans-serif; }
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .row .col-1 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-2 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-3 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-4 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-5 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-6 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-7 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-8 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-9 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-10 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-11 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-12 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+
+@media screen and (min-width: 672px) {
+  .row .col-1 {
+    width: calc(8.3333% - 1rem); }
+  .row .col-2 {
+    width: calc(16.6666% - 1rem); }
+  .row .col-3 {
+    width: calc(25% - 1rem); }
+  .row .col-4 {
+    width: calc(33.3333% - 1rem); }
+  .row .col-5 {
+    width: calc(41.6666% - 1rem); }
+  .row .col-6 {
+    width: calc(50% - 1rem); }
+  .row .col-7 {
+    width: calc(58.3333% - 1rem); }
+  .row .col-8 {
+    width: calc(66.6666% - 1rem); }
+  .row .col-9 {
+    width: calc(75% - 1rem); }
+  .row .col-10 {
+    width: calc(83.3333% - 1rem); }
+  .row .col-11 {
+    width: calc(91.6666% - 1rem); }
+  .row .col-12 {
+    width: calc(100% - 1rem); } }
+
+* {
+  outline: none;
+  transition: .5s; }
+
+body {
+  background: #2d3436;
+  color: rgba(223, 230, 233, 0.75);
+  line-height: 1.74; }
+
+.search {
+  background-color: #2d3436;
+  padding-top: 20px; }
+  .search .log .arrow {
+    padding: 0 20px;
+    cursor: pointer; }
+  .search .log .search-btn {
+    font-size: 2em;
+    text-align: center; }
+  .search .search-opt {
+    margin-top: 20px; }
+    .search .search-opt .search-input {
+      width: 100%;
+      display: flex; }
+      .search .search-opt .search-input #pkmn_name {
+        width: calc(91.6666%);
+        height: 30px;
+        margin: 0;
+        border: none;
+        color: #dfe6e9;
+        font-size: 1.3em;
+        background: rgba(99, 110, 114, 0.2);
+        padding-left: 10px; }
+      .search .search-opt .search-input .search_pkmn {
+        cursor: pointer;
+        border: none;
+        margin: 0;
+        height: 30px;
+        font-size: 1.3em;
+        background: #d63031;
+        color: #dfe6e9;
+        width: calc(8.3333%); }
+    .search .search-opt .search-dropdown {
+      margin: 20px 0; }
+
+.hero {
+  width: 100%;
+  text-transform: capitalize; }
+  .hero .info {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center; }
+
+.image {
+  width: 175px;
+  height: 175px;
+  margin: 10px auto; }
+  .image img {
+    width: 100%;
+    height: 100%; }
+
+.info-area {
+  padding: 20px; }
+  .info-area .pkdx_general {
+    display: flex; }
+    .info-area .pkdx_general .stats {
+      text-transform: capitalize; }
+      .info-area .pkdx_general .stats div {
+        margin-bottom: 10px; }

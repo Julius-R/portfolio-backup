@@ -6,21 +6,30 @@ import {
   NavLink
 } from 'react-router-dom';
 
-function Nav(props) {
-  return (
-    <nav className="navBar">
-      <div className="container">
-        <div className="logo">
-          Julius <span className="purpleText">R.</span>
+class Nav extends React.Component {
+  openMenu() {
+    const menu = document.querySelector('.mobileMenu');
+    menu.style.left = "0px";
+  }
+  render() {
+    return (
+      <nav className="navBar">
+        <div className="container">
+          <div className="logo">
+            Julius <span className="purpleText">R.</span>
+          </div>
+          <ul className="menu">
+            <NavLink activeClassName="active" exact to='/'><li>About</li></NavLink>
+            <NavLink activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>
+            <NavLink activeClassName="active" to="/contact"><li>Contact</li></NavLink>
+          </ul>
+          <div className="menuBtn" onClick={this.openMenu}>
+            <img src="imgs/bars.svg" alt="image of bars"/>
+          </div>
         </div>
-        <ul className="menu">
-          <NavLink activeClassName="active" exact to='/'><li>About</li></NavLink>
-          <NavLink activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>
-          <NavLink activeClassName="active" to="/contact"><li>Contact</li></NavLink>
-        </ul>
-      </div>
-    </nav>
-  )
+      </nav>
+    )
+  }
 }
 
 module.exports = Nav;

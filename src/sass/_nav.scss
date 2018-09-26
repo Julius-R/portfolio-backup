@@ -1,6 +1,6 @@
 .navBar {
   width: 100%;
-  padding-top: 50px;
+  padding: 50px 15px 0;
 
   .container {
     display: flex;
@@ -8,6 +8,7 @@
     align-items: center;
 
     .menu {
+      display: none;
       font-size: 20px;
 
       li {
@@ -22,6 +23,59 @@
 
       .active {
         color: $purple;
+      }
+    }
+
+    .menuBtn {
+      height: 25px;
+      cursor: pointer;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.mobileMenu {
+  transition: .25s ease-in-out;
+  width: 100%;
+  position: absolute;
+  background: $purple;
+  left: -10000px;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+
+  #closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+  }
+
+  li {
+    list-style: none;
+    font-size: 2em;
+    padding: 20px 0;
+    cursor: pointer;
+    color: $white;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .navBar {
+
+    .container {
+
+      .menu {
+        display: block;
+      }
+
+      .menuBtn {
+        display: none;
       }
     }
   }

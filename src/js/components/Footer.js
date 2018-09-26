@@ -6,16 +6,22 @@ function Footer(props) {
     <footer>
       <ul>
         <li>
-          <a href="https://github.com/Julius-R"><img src="./imgs/github.svg" alt=""/></a>
-          <a href="https://github.com/Julius-R">Github</a>
+          <a href="https://github.com/Julius-R" target="_blank">
+            <img src="./imgs/github.svg" alt=""/>
+            <p>Github</p>
+          </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/julius-robinson-495103110/"><img src="./imgs/linkedin-in.svg" alt=""/></a>
-          <a href="https://www.linkedin.com/in/julius-robinson-495103110/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/julius-robinson-495103110/" target="_blank">
+            <img src="./imgs/linkedin-in.svg" alt=""/>
+            <p>LinkedIn</p>
+          </a>
         </li>
         <li>
-          <a href="https://codepen.io/julisu-r/"><img src="imgs/codepen.svg" alt="Logo of codepen"/></a>
-          <a href="https://codepen.io/julisu-r/">Codepen</a>
+          <a href="https://codepen.io/julisu-r/" target="_blank">
+            <img src="imgs/codepen.svg" alt="Logo of codepen"/>
+            <p>Codepen</p>
+          </a>
         </li>
       </ul>
     </footer>

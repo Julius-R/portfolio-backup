@@ -26,3 +26,10 @@ footer {
     }
   }
 }
+
+@media screen and (min-width: 600px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
