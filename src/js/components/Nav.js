@@ -6,7 +6,6 @@ import {
   NavLink
 } from 'react-router-dom';
 
-<<<<<<< HEAD
 class Nav extends React.Component {
   openMenu() {
     const menu = document.querySelector('.mobileMenu');
@@ -27,18 +26,8 @@ class Nav extends React.Component {
           <div className="menuBtn" onClick={this.openMenu}>
             <img src="imgs/bars.svg" alt="image of bars"/>
           </div>
-=======
-
-function Nav(props) {
-  return (
-    <nav className="navBar">
-      <div className="container">
-        <div className="logo">
-          Julius <span className="purpleText">R.</span>
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
         </div>
       </nav>
-    )
   }
 }
 
