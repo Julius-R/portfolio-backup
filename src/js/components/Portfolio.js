@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
 import Sidebar from './Sidebar';
-=======
-import Menu from './Menu.js';
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
 import Nav from './Nav.js';
 import Footer from './Footer.js';
 
@@ -18,17 +14,9 @@ function Portfolio(props) {
 
   return (
     <div>
-<<<<<<< HEAD
-      <Sidebar />
-      <Nav />
-      <section className="portfolio">
-        <div className="container">
-          <h1 className="text-large">Portfolio</h1>
-          <div className='row'>
-            {cards}
-=======
-      <Menu />
+
       <div className="content-wrapper">
+        <Sidebar />
         <Nav />
         <section className="portfolio">
           <div className="container">
@@ -36,7 +24,6 @@ function Portfolio(props) {
             <div className='row'>
               {cards}
             </div>
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
           </div>
         </section>
         <Footer />

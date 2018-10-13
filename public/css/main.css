@@ -68,13 +68,9 @@ body {
     justify-content: space-between;
     align-items: center; }
     .navBar .container .menu {
-<<<<<<< HEAD
       display: none;
-      font-size: 20px; }
-=======
       font-size: 20px;
       display: none; }
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
       .navBar .container .menu li {
         display: inline-block;
         margin: 0 20px;
@@ -89,7 +85,6 @@ body {
       .navBar .container .menuBtn img {
         height: 100%; }
 
-<<<<<<< HEAD
 .mobileMenu {
   transition: .25s ease-in-out;
   width: 100%;
@@ -119,11 +114,6 @@ body {
   .navBar .container .menuBtn {
     display: none; } }
 
-.hero {
-  width: 100%;
-  padding-top: 50px; }
-  .hero .container .content {
-=======
 @media screen and (min-width: 600px) {
   .navBar .container .menu {
     display: block; } }
@@ -132,78 +122,35 @@ body {
   width: 100%; }
   .hero .container {
     padding-top: 50px;
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
     text-align: center; }
-    .hero .container .content .title {
-      font-weight: 100;
-      font-size: 30px;
-      margin-bottom: 20px; }
-    .hero .container .content .description {
-      font-size: 16px;
-      color: #393E46;
-<<<<<<< HEAD
-      max-width: 440px;
-      margin: auto; }
-=======
-      width: 100%; }
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
-    .hero .container .content .btn {
-      margin-top: 30px;
-      cursor: pointer;
-      color: #FFFFFF;
-      background: #7971EA;
-      width: 200px;
-<<<<<<< HEAD
-      height: 50px;
-      border: none;
-      font-size: 1.5em;
-      font-weight: 300;
-      border-radius: 30px; }
-  .hero .container .image {
-    text-align: center; }
-    .hero .container .image img {
-      transform: scale(0.75); }
-
-@media screen and (min-width: 786px) {
-  .hero {
-    width: 100%;
-    padding-top: 150px; }
-    .hero .container {
-      display: flex;
-      justify-content: space-between; }
-      .hero .container .content {
-        text-align: left; }
-        .hero .container .content .description {
-          margin: 0; }
-      .hero .container .image {
-        text-align: right; }
-        .hero .container .image img {
-          transform: scale(0.75); } }
-=======
-      height: 40px;
-      font-size: 1.5em;
-      font-weight: 300;
-      border-radius: 30px;
-      border: none; }
-    .hero .container .image img {
-      transform: scale(0.75); }
-
-@media screen and (min-width: 600px) {
-  .hero {
-    height: 82vh;
-    padding-top: 100px; }
-    .hero .container {
-      display: flex;
-      justify-content: space-between; }
+    .hero .container .content {
+      text-align: center; }
       .hero .container .content .title {
         font-weight: 100;
-        font-size: 44px;
+        font-size: 30px;
         margin-bottom: 20px; }
       .hero .container .content .description {
-        font-size: 20px;
+        font-size: 16px;
         color: #393E46;
-        width: 440px; } }
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
+        max-width: 440px;
+        margin: auto;
+        width: 100%; }
+      .hero .container .content .btn {
+        margin-top: 30px;
+        cursor: pointer;
+        color: #FFFFFF;
+        background: #7971EA;
+        width: 200px;
+        border: none;
+        height: 40px;
+        font-size: 1.5em;
+        font-weight: 300;
+        border-radius: 30px;
+        border: none; }
+    .hero .container .image {
+      text-align: center; }
+      .hero .container .image img {
+        transform: scale(0.75); }
 
 .portfolio {
   padding-top: 70px; }
@@ -252,19 +199,6 @@ body {
 
 @media screen and (min-width: 830px) {
   .portfolio {
-<<<<<<< HEAD
-    padding-top: 10px; }
-=======
-    padding-top: 50px; }
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
-    .portfolio .row {
-      display: grid;
-      grid-template-columns: auto auto auto; } }
-
-<<<<<<< HEAD
-=======
-@media screen and (min-width: 830px) {
-  .portfolio {
     padding-top: 20px; }
     .portfolio .container {
       max-width: 1100px; }
@@ -303,7 +237,6 @@ body {
           color: #FFFFFF;
           border-radius: 0 0 10px 10px; } }
 
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
 .contact {
   padding-top: 30px; }
   .contact .container .text-large {
@@ -427,7 +360,6 @@ footer {
         height: 25px; }
       footer ul li a {
         color: #393E46; }
-<<<<<<< HEAD
 
 @media screen and (min-width: 600px) {
   footer {
@@ -590,5 +522,3 @@ footer {
   }
 }
 */
-=======
->>>>>>> caeb8e58e7430e9d816bfa49ee44a96b5f8774df
